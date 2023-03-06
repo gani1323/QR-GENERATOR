@@ -14,7 +14,7 @@ def generateCode():
   #Showing the pop up message on saving the file
   messagebox.showinfo("QR with GANESH","QR Code is saved successfully!")
 wn = Tk()
-wn.title('QR GENERATOR BY GANRSH')
+wn.title('QR GENERATOR BY GANESH')
 wn.geometry('1050x1050')
 wn.config(bg='aqua')
 headingFrame = Frame(wn,bg="green",bd=5)
@@ -38,7 +38,7 @@ loc.place(relx=0.05,rely=0.4, relwidth=1, relheight=0.2)
 #Getting input of the QR Code image name
 Frame3 = Frame(wn,bg="SteelBlue3")
 Frame3.place(relx=0.1,rely=0.55,relwidth=0.7,relheight=0.3)
-label3 = Label(Frame3,text="Enter the Funniest Tittle for your QR Code: ",bg="darkorchid",fg='yellow',font=('Courier',13,'bold'))
+label3 = Label(Frame3,text="Enter the Funniest Title for your QR Code: ",bg="darkorchid",fg='yellow',font=('Courier',13,'bold'))
 label3.place(relx=0.05,rely=0.2, relheight=0.08)
 name = Entry(Frame3,font=('Century 12'))
 name.place(relx=0.05,rely=0.4, relwidth=1, relheight=0.2)
